@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+#code1
+{
+	background-color:#F00; 
+	position:absolute;	
+	width:100px;
+	height:300px;
+	z-index:3; /*  ĐỎ */
+	left:100px;
+	top:50px;
+}
+#code2
+{
+	background-color:#060;
+	position:absolute;
+	width:100px;
+	height:300px;
+	z-index:2; /* XANH */
+	left:110px;
+	top:50px;
+}
+#code3
+{
+	background-color:#FF0;
+	position:absolute;
+	width:100px;
+	height:300px;
+	z-index:1; /* VÀNG */
+	left:120px;
+	top:50px;
+}
+/*  	1.static: hết nội dung rồi tới nó nhưng trị số canh lề ko
+		có tác dụng.
+		2.relative: như static nhưng trị số canh lề có tác dụng.
+	    3.absolute: canh theo trang web hiển thị (góc trái trên).
+		4.fixed: luôn canh như absolute cho dù cuộn chuột.
+	*/
+
