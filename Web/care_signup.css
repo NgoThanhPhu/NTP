@@ -1,0 +1,399 @@
+body{
+    margin: 0;
+}
+/*top*/
+.container{
+    width: 1360px;
+    margin:  0 auto; /*Auto shift to CENTER*/
+}
+
+.top{
+    width: 100%;
+    height: 60px;
+    position: relative;
+    background-color: #222222;
+}
+
+.logo{
+    width: 16%;
+    float: left;
+    padding-top: 9px;
+}
+
+.contact{
+    width: 67%;
+    float: left;
+    font-size: 23px;
+    margin-top: 17px;
+}
+
+.contact a{
+    padding-left: 60px;
+    color: white;
+    text-decoration: none;
+}
+
+.contact a:hover{
+    color: #ff793f;
+}
+
+.contact a i{
+    opacity: 85%;
+    font-size: 20px;
+}
+
+.signupin{
+    width: 17%;
+    float: left;
+    font-size: 20px;
+    font-family: Arial;
+    padding-top: 13px;
+}
+
+.signupin a{
+    padding-left: 40px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+.signupin a:hover{
+    color: #00A74C;
+    font-family: Arial;
+}
+
+input[type='submit']{
+    background-color: #222222;
+    color: white;
+    border: 1px solid #ced6e0;
+    font-size: 20px;
+    padding: 6px;
+    border-radius: 5px;
+    font-family: Arial;
+}
+
+input[type='submit']:hover{
+    color: #00A74C;
+    border: 1px solid #00A74C;
+    border-radius: 5px;
+}
+/*end top*/
+
+/*main*/
+.main{
+    background-image: url("carlayout.jpg");
+    background-size: cover;
+    height: 150vh;
+}
+.main__dangky{
+    width: 680px;
+    float: left;
+    height:10px;
+    position: absolute;
+
+}
+
+.main__dangky__form{
+    border: 1px solid black;
+    width: 408px;
+    background-color: #dfe4ea;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: none;
+    opacity: 70%;
+    padding: 20px 20px;
+    margin-top: 80px;
+    margin-left: 456px;
+    margin-bottom: -40px;
+}
+
+.main__dangky__form__signup{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial;
+    color: #27ae60;
+}
+
+.main__dangky__form__usernameline i{
+    color: #3BBA79;
+    padding-left: 15px;
+}
+.main__dangky__form__usernameline input{/*onblur chỗ này*/
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    height: 40px;/*onblur chỗ này*/
+    width: 363px;
+    padding-top: 4px;
+}
+
+.main__dangky__form__usernameline {
+    background-color: #fff;
+    height: 45px;
+    border: 1px solid #141414;
+    border-radius: 3px;
+    margin-top: 40px;
+}
+
+.main__dangky__form__passline input{
+    background-color: #fff;
+    height: 45px;
+    border: 1px solid #141414;
+    border-radius: 3px;
+    margin-top: 20px;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.matkhau{
+    width: 140px;
+}
+
+.xacnhanmatkhau{
+    margin-left: 26px;
+    width: 203px;
+}
+
+.main__dangky__form__mailline i{
+    color: #3BBA79;
+    padding-left: 15px;
+}
+
+.main__dangky__form__mailline input{/*onblur chỗ này*/
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    height: 40px;
+    width: 361px;
+    padding-top: 4px;
+}
+
+.main__dangky__form__mailline {
+    background-color: #fff;
+    height: 45px;
+    border: 1px solid #141414;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+
+.main__dangky__form__sdtline input{
+    background-color: #fff;
+    height: 45px;
+    border: 1px solid #141414;
+    border-radius: 3px;
+    margin-top: 20px;
+    font-size: 18px;
+    padding-left: 15px;
+    font-size: 18px;
+    width: 390px;
+}
+
+.main__dangky__form__infoline input{
+    background-color: #fff;
+    height: 45px;
+    border: 1px solid #141414;
+    border-radius: 3px;
+    margin-top: 20px;
+    font-size: 18px;
+    padding-left: 15px;
+}
+.gender{
+    width: 201px;
+    margin-left: 18px;
+}
+
+.age{
+    width: 150px;
+}
+
+.main__dangky__form span{
+    float: right;
+    text-decoration: none;
+    color: #27ae60;
+    cursor: pointer;
+}
+
+.main__dangky__form2{
+    width: 60%;
+    border: 1px solid black;
+    background-color: #dfe4ea;
+    border-radius: 0px 0px 10px 10px;
+    border-top: none;
+    opacity: 70%;
+    padding: 20px 20px;
+    margin-top: 40px;
+    margin-left: 456px;
+    display: none;
+}
+.main__dangky__form2__checkline{
+    margin-top: 20px;
+}
+
+.main__dangky__form2__checkline a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #009432;
+}
+
+.custom{
+    margin-top: -20px;
+    margin-bottom: 0px;
+}
+.company{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.button_signup{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    background-image: linear-gradient(to right, #27ae60 0%, #4cd137 100%);
+    border-radius: 10px;
+    border: none;
+    height: 45px;
+}
+
+.main__dangky__form3{
+    width: 60%;
+    border: 1px solid black;
+    background-color: #dfe4ea;
+    border-radius: 0px 0px 10px 10px;
+    border-top: none;
+    opacity: 70%;
+    padding: 20px 20px;
+    margin-top: 40px;
+    margin-left: 456px;
+    display: block;
+}
+
+.main__dangky__form2__cusdate {
+    background-color: #fff;
+    height: 45px;
+    border: 1px solid #141414;
+    border-radius: 3px;
+    margin-top: 20px;
+    font-size: 18px;
+    padding-left: 15px;
+    width: 390px;
+}
+
+.main__dangky__form2__cusnum {
+    background-color: #fff;
+    height: 45px;
+    border: 1px solid #141414;
+    border-radius: 3px;
+    margin-top: 20px;
+    font-size: 18px;
+    padding-left: 15px;
+    width: 390px;
+}
+
+.main__dangky__form2__cuswhere {
+    background-color: #fff;
+    height: 45px;
+    border: 1px solid #141414;
+    border-radius: 3px;
+    margin-top: 20px;
+    font-size: 18px;
+    padding-left: 15px;
+    width: 390px;
+}
+/*end main*/
+
+/*footer*/
+.footer{
+    background-color: #222222;
+    margin-top: -10px;
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+}
+
+.footer__logo{
+    padding-top: 90px;
+}
+
+.footer__logo__icon{
+    padding-top: 30px;
+}
+
+.func-social{
+    font-size: 14px;
+    color: white;
+    padding-left: 8px;
+}
+
+.footer__content{
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+}
+.footer__part{
+    padding-top: 90px;
+    float: left;
+    padding-left: 60px;
+}
+.footer__part h5{
+    margin-top: 0;
+    display: block;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-left: 41px;
+}
+
+.footer__part ul{
+    list-style: none;
+}
+
+.footer__part ul li{
+    padding: 5px 0;
+}
+
+.footer__part ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.footer__part ul li a:hover{
+    color: #2ed573;
+}
+.footer__content__bottom{
+    float: left;
+    margin-top: 40px;
+    width: 100%;
+    border-top: 1px solid #6c6c6e;
+}
+.footer__left{
+    width: 50%;
+    float: left;
+    padding-top: 40px;
+}
+.footer__left a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.footer__left a i{
+    color: white;
+    font-size: 15px;
+}
+.footer__right{
+    width: 50%;
+    float: right;
+    padding-top: 40px;
+}
+.footer__right p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 17px;
+    margin-top: 0;
+}
+/*end footer*/
